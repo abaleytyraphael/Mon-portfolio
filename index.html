@@ -1,32 +1,81 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon portfolio - Accueil</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mon portfolio - Accueil</title>
+  <link rel="icon" href="images/icone-site.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html" class="active">Accueil</a></li>
-                <li><a href="about.html">À propos</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="active">Accueil</a></li>
+        <li><a href="about.html">À propos</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <main>
-        <section class="hero">
-            <h1>Bienvenue sur mon portfolio</h1>
-            <p>Je suis Abaleyty, developpeur à mes heures perdues. Découvrez mes projets et contactez-moi !</p>
-            <a href="about.html" class="btn">Voir mes projets</a>
-        </section>
-    </main>
+  <main>
+    <section class="hero">
+      <h1>Bienvenue sur mon portfolio</h1>
+      <p>Je suis Abaleyty, développeur à mes heures perdues. Découvrez mes projets 😎</p>
+      <a href="about.html#projects" class="btn">Voir mes projets</a>
+    </section>
+    
+    <section class="skills">
+      <h2 class="section-title">Compétences en un coup d'œil</h2>
+      <ul class="skills-list">
+        <li class="skill-item">
+          <h3>Frontend</h3>
+          <p>HTML, CSS, JavaScript</p>
+        </li>
+        <li class="skill-item">
+          <h3>Backend</h3>
+          <p>Python, Bases de données</p>
+        </li>
+        <li class="skill-item">
+          <h3>Outils</h3>
+          <p>GitHub, VS Code</p>
+        </li>
+      </ul>
+    </section>
 
-    <footer>
-        <p>&copy; 2025 Mon Site Web. Tous droits réservés.</p>
-    </footer>
+    <!-- NOUVELLE SECTION : Projets récents -->
+    <section class="projects-preview">
+      <h2 class="section-title">Projets Récents</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-content">
+            <h3>Jeu de mots en Python</h3>
+            <p>Un jeu interactif basé sur la logique et les indices, développé en première année de licence informatique.</p>
+            <a href="about.html#python-game" class="project-link">Voir le projet →</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-content">
+            <h3>Site portfolio</h3>
+            <p>Ce site que vous explorez actuellement ! Développé avec HTML5 et CSS3.</p>
+            <a href="about.html#portfolio-site" class="project-link">Explorer →</a>
+          </div>
+        </div>
+      </div>
+      <div class="text-center">
+        <a href="about.html#projects" class="btn">Voir tous mes projets</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2025 Mon Portfolio. Tous droits réservés.</p>
+      <div class="social-links">
+        <a href="#" class="social-link">GitHub</a>
+        <a href="#" class="social-link">LinkedIn</a>
+        <a href="#" class="social-link">Twitter</a>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
